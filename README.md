@@ -4,7 +4,7 @@
 [*see instructions for details*](Instructions.md)
 
 *Insert Class Diagram here*  
-
+![OOP Assignment.png](OOP Assignment.png)
 
 
 ## Summary
