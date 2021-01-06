@@ -9,15 +9,22 @@ public class OSAIDClubMain{
 
     Teacher Smith = new Teacher("Tony", "Smith", "Boy", "Holiday Bingo", "Chemistry" );
 
-    Initiative VirtualGame = new Initiative("Virtual Game", "September", 4);
+    Initiative OnlinePledge = new Initiative("Online Pledge", "September", 4);
+
 
     System.out.println(Sarah.getFirstName());
     System.out.println(Smith.getLastName());
-    System.out.println(VirtualGame.getEvent());
+    System.out.println(OnlinePledge.getEvent());
 
-    OSAIDClub Tuesday = new OSAIDClub(Tuesday, Smith);
+    OSAIDClub Tuesday = new OSAIDClub("Tuesday", Smith);
     Tuesday.addStudent(Sarah);
+ 
+  Student Mark = new Student("Mark", "Brown", "Boy", "online pledge", 10, new Positions("General","make proposal") );
+    Tuesday.addStudent(Mark);
 
     System.out.println(Tuesday.getSize());
+
+
+    
   }
 }
