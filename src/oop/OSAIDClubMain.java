@@ -15,8 +15,9 @@ public class OSAIDClubMain{
     System.out.println(Smith.getLastName());
     System.println(VirtualGame.getEvent());
 
-    OSAIDClub BringAwareness = new OSAIDClub(BringAwareness, Smith);
-    BringAwareness.addStudent(Sarah);
+    OSAIDClub Tuesday = new OSAIDClub(Tuesday, Smith);
+    Tuesday.addStudent(Sarah);
 
+    System.out.println(Tuesday.getSize());
   }
 }
