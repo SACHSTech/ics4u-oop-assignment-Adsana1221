@@ -22,7 +22,7 @@ public class Student extends Members{
     super(FirstName, LastName, Gender, ParticipatedEvents);
     this.grade = Grade;
     this.positions = posit;
-    this.positions = posit;
+    
     
     // Add a student
     totalStudents++;  

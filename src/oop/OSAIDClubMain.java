@@ -5,7 +5,7 @@ import oop.*;
 public class OSAIDClubMain{
 
   public static void main(String[] args){
-    Student Sarah = new Student("Sarah", "Rogers", "Girl", "online pledge", 10, new Position("General","make proposal") );
+    Student Sarah = new Student("Sarah", "Rogers", "Girl", "online pledge", 10, new Positions("General","make proposal") );
 
     Teacher Smith = new Teacher("Tony", "Smith", "Boy", "Holiday Bingo", "Chemistry" );
 
