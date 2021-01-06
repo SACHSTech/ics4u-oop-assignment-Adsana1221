@@ -8,7 +8,11 @@ public class Teacher extends Members{
 
   // Constructor
   public Teacher(String FirstName, String LastName, String Gender, String ParticipatedEvents, String Course){
-    super(firstName, lastName, gender, participatedEvents);
+    super(FirstName, LastName, Gender, ParticipatedEvents);
     this.course = Course;
+  }
+
+  public String getCourse(){
+    return this.course;
   }
 }
