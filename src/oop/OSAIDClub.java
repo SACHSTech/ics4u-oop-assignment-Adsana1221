@@ -3,13 +3,13 @@ package oop;
 public class OSAIDClub{
 
 // attributes
-private String goal;
+private String clubDay;
 private Teacher teacher;
 private ArrayList<Student> students;
 
-public OSAIDClub(String Goal, Teacher teacher){
+public OSAIDClub(String ClubDay, Teacher teacher){
 
-  goal = Goal;
+  clubDay = ClubDay;
   teacher = Teacher;
 
   // initialize the list of students in club
