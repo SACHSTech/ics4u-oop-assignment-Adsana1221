@@ -5,14 +5,14 @@ public class Positions{
   String role;
   String responsibilities;
 
-  public Positions(String Role, String Responsibilies){
+  public Positions(String Role, String Responsibilities){
 
     this.role = Role;
-    this.responsibiliites = Responsibilities;
+    this.responsibilities = Responsibilities;
     
   }
 
   public String toString(){
-    return this.role + " " + this.responsibiliites;
+    return this.role + " " + this.responsibilities;
   }
 }

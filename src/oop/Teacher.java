@@ -1,6 +1,6 @@
 package oop;
 
-import oop;
+import oop.*;
 
 public class Teacher extends Members{
   

@@ -19,8 +19,9 @@ public class Student extends Members{
   */
 
   public Student(String FirstName, String LastName, String Gender, String ParticipatedEvents, int Grade, Positions posit){
-    super(FirstName,LastName, Gender, ParticpatedEvents);
+    super(FirstName, LastName, Gender, ParticipatedEvents);
     this.grade = Grade;
+    this.positions = posit;
     this.positions = posit;
     
     // Add a student
@@ -43,6 +44,7 @@ public class Student extends Members{
   public int getGrade(){
     return grade;
   }
+
 
 
 
