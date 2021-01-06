@@ -5,6 +5,7 @@ import oop.*;
 public class Student extends Members{
   // Instance Variable
   private int grade;
+  Positions positions;
 
   // Class Variable
   private static int totalStudents = 0;
@@ -17,9 +18,10 @@ public class Student extends Members{
   * @param Participated Events - the event the student participated in
   */
 
-  public Student(String FirstName, String LastName, String Gender, String ParticipatedEvents, Integer Grade){
+  public Student(String FirstName, String LastName, String Gender, String ParticipatedEvents, int Grade, Positions posit){
     super(FirstName,LastName, Gender, ParticpatedEvents);
     this.grade = Grade;
+    this.positions = posit;
     
     // Add a student
     totalStudents++;  
