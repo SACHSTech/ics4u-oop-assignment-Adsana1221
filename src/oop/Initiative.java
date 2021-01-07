@@ -7,7 +7,13 @@ public class Initiative{
   private String month;
   private int numofMembers;
 
-// Constructor
+
+  /**
+  * Constructor 
+  * @param Event - the name of the initiative
+  * @param Month - when that event should be held
+  * @param NumofMembers - the number of students responsible for an event
+  */
 public Initiative(String Event, String Month, int NumofMembers){
   this.event = Event;
   this.month = Month;

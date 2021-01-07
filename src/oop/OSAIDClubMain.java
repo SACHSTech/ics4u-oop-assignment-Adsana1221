@@ -5,7 +5,7 @@ import oop.*;
 public class OSAIDClubMain{
 
   public static void main(String[] args){
-    Student Sarah = new Student("Sarah", "Rogers", "Girl", "online pledge", 10, new Positions("General","make proposal") );
+    Student Sarah = new Student("Sarah", "Rogers", "Girl", "online pledge", 10, new Positions("General","make template") );
 
     Teacher Smith = new Teacher("Tony", "Smith", "Boy", "Holiday Bingo", "Chemistry" );
 
@@ -19,7 +19,7 @@ public class OSAIDClubMain{
     OSAIDClub Tuesday = new OSAIDClub("Tuesday", Smith);
     Tuesday.addStudent(Sarah);
  
-  Student Mark = new Student("Mark", "Brown", "Boy", "online pledge", 10, new Positions("General","make proposal") );
+  Student Mark = new Student("Mark", "Brown", "Boy", "Virtual Game", 10, new Positions("General","make rules") );
     Tuesday.addStudent(Mark);
 
     System.out.println(Tuesday.getSize());
