@@ -4,6 +4,10 @@
 [*see instructions for details*](Instructions.md)
 
 *Insert Class Diagram here*  
+![OOP Assignment (2)](https://user-images.githubusercontent.com/74546502/103834092-7bd38e80-5050-11eb-9080-8245b505fb33.png)
+
 
 ## Summary
 *Include a brief summary that describes your system that your are modelling*
+
+The system that is being modelled is a school club, speicifically OSAID Club. This club is about bringing awareness to the risks of impaired driving and how it can be avoided. This club is very crucial because teenagers are very eager to drive, and are prone to making poor decisions when it comes to alcohol/drugs. So OsaidClub would be the main class and would have the attributes; teacher, students, and clubDay, which means what day of the week the club is held. This class would track how many students are in this club. Teacher and students would have a "has a" relationship with the OsaidClub class. Positions would be it's own class that would have a "has a" relationship with students, which tracks the role and responsibilities of those students as they could be an executive or a general member. The teacher class would track what type of course they teach, as any teacher can be apart of this club, and the students class would track what grade the student is in. The initiative class is a separate class that would track the different events/activities planned, which month that specific event will be held in, and how many members are in that subcommittee responsible for that event. Finally, both the teacher and students class would extend to a Members class which would be a "is a" relationship as both of them are members of the club. The Members class would track the first and last name, the gender and the events they participated in. 
